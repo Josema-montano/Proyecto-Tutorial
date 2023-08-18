@@ -1,0 +1,56 @@
+    li{
+        color:rgb(255, 255, 255);  
+    }
+    body{
+    background-image: url(E:\tutorial-verda/fondo.jpg);
+    }
+ .mustang{
+    width: 1491px;
+    height: 997px;
+ } 
+ .menu ul{
+    list-style: none;
+    text-align: center;
+ } 
+ .menu__texto a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+   margin: 50px;
+   font-size: 20px;
+ } 
+ .titulo{
+    text-align: left;
+        font-size: 58px;
+        color:aliceblue;  
+
+ }
+
+ header {
+    padding:10px;
+    border-width: 3px;
+    border-style: solid;
+    border-bottom-color: red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .menured li{
+    text-decoration: none;
+    display: inline;
+   margin: 10px;
+   font-size: 20px;
+    list-style: none;
+  }
+  .redesig{
+    width: 38px;
+    height: 39px;
+  }
+  .redesfb{
+    width: 52px;
+    height: 39px;
+  }
+  .redestw{
+    width: 39px;
+    height: 39px;
+  }
