@@ -3,7 +3,7 @@
       transform: translateX(-100px);
     }
     100% {
-      transform: translateX(0px); /* Cambia el valor para ajustar la distancia */
+      transform: translateX(0px);
     }
   }
   
