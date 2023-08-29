@@ -1,0 +1,201 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700&display=swap');
+@keyframes movimiento {
+    0% {
+      transform: translateX(-100px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size:100;
+    vertical-align: baseline;
+}
+body{
+    text-align: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+.logo{
+    margin-left: 30px;
+}
+.navbar a {
+    display:block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover{
+    background: #3f3f3f;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header{
+    height: 115vh !important;
+    background: url(E:/Tutorial/fondo.jpg) no-repeat center;
+    background-size: cover;
+}
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+.waos{
+    color: #ffa7a7;
+    font-size: 17px;
+}
+.iniciowaos{
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+.control_text{
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #fff;
+    text-align: justify;
+}
+.btn{
+    display: inline-block;
+    margin-top:15px ;
+    padding: 10px 40px;
+    border: 2px solid #c51717;
+    text-decoration: none;
+    color: #fff;
+    background: #c51717;
+}
+.btn:hover{
+    background: none;
+   
+}
+.btn-home{
+    display: flex;
+  
+
+}
+.btn-home a{
+    margin: 0 10px;
+    border-radius :20px;;
+}
+.content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.conoce{
+    padding: 30px;
+    background:#1f1d1d ;
+}
+.manual{
+    
+    background: url(E:/Tutorial/wpmustang.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.logo{
+    height: 75px;
+    width: 130px;
+    animation-duration: 2s;
+    animation-name: movimiento;
+}
+.contact{
+padding-top: 20px;
+background: #000000;
+padding-bottom: 0;
+}
+p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;   
+}
+.subt{
+    color: #c51717;
+    font-size: 24px;
+}
+.autom{
+    background: url(E:/Tutorial/wpsupra.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.redesig{
+    width: 37px;
+    height: 40px;
+    margin-bottom: 25px;
+}
+.redesfb{
+    width: 25px;
+    height: 53px;
+    margin-bottom: 25px;
+}
+.redestw{
+    width: 47px;
+    height: 37px;
+    margin-bottom: 25px;
+}
+.reglas{
+    background:#3f3f3f;
+}
+.button_slide {
+    color: #FFF;
+    border: 2px solid rgb(216, 2, 2);
+    border-radius: 20px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: 'Bricolage Grotesque', sans-serif, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #d80202;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+  .slide_down:hover {
+    box-shadow: inset 0 100px 0 0 #d80202;
+  }
+  #outer {
+    width: 364px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+  }
+  .menua{
+ 
+    background-color: #3f3f3f;
+    
+    
+  }

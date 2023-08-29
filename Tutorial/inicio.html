@@ -3,29 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="C:/Tutorial-final/css/style.css">
+    
+    <link rel="stylesheet" href="E:/Tutorial/estilos/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Tutorial</title>
 </head>
 <body>
-    <div class="head">
-        <div class="logo">
-            <a href="#"><img class="logo" src="C:/Tutorial-final/Logo.png" alt="logo"></a>
-        </div>
-        <div class="navbar">
-        <a href="#"></a>">Inicio</a>
-        <a href="#manual">Manual</a>
-        <a href="#autom">Automatica</a>
-        <a href="#control">Controles</a>
-        <a href="#regla">Reglas</a>
-        <a href="#contact">Contacto</a>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a href="#"><img class="logo" src="E:/Tutorial/Logo.png" alt="logo"></a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
+  </nav>
     <header class="content header" >
+     
 <p class="iniciowaos">NO ES EL AUTO, ES EL CONDUCTOR QUE LO MANEJA</p>
-<div class="btn-home">
-    <a href="#" class="btn">TRANSMISION MANUAL</a>
-    <a href="#" class="btn">TRANSMISION AUTOMATICA</a>
-</div>    
+<div id="outer">
+    <a href="#autom"><div class="button_slide slide_down">AUTOMATICA </div></a>
+  <br /> <br /><br />
+  <a href="#manual"><div class="button_slide slide_down">MANUAL </div></a>
+  <br /> <br /><br />
+</div>   
 </header>
 <section class="content manual"id="manual">
     <article class="contain manual">
@@ -106,7 +123,7 @@
 </section>
     <section class="content contact" id="contact">
         <h2 class="title">Contacto</h2>
-        <p><strong class="waos"><a href="file:///C:/Tutorial-final/inscripciones.html">🔴APRENDE CON NOSOTROS</strong></a></p>
+        <p><strong class="waos"><a href="file:///E:/Tutorial/inscripciones.html">🔴APRENDE CON NOSOTROS</strong></a></p>
         <p><strong class="waos">🔴NUMERO TELEFONICO</strong>  78238812</p>
         <nav class="menured">
             <li ><a href="https://instagram.com/josema_mont?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><img class="redesig" src="insta.png" alt="ig"></a></li>
@@ -114,5 +131,6 @@
             <li ><a href="https://twitter.com/6ArtiK9?t=2hLVlcdx31sJQ96e2IQFiQ&s=09"><img class="redestw" src="x.png" alt="twitter"></a></li>
         </nav>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
